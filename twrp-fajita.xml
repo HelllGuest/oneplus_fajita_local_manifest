@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="HelllGuest/android_bootable_recovery" remote="github" revision="android-9.0" />
+  <project name="HelllGuest/twrp-fajita" path="device/oneplus/fajita" remote="github" revision="android-9.0" />
+  <project name="TeamWin/android_external_busybox" path="external/busybox" remote="github" revision="android-9.0" />
+
+</manifest>
